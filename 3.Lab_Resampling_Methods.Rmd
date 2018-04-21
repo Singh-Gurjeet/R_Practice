@@ -358,7 +358,7 @@ boot.out.2
 #plot(boot.out.2)
 ```
 
-
+Compare the results with summary statistic.
 
 ```{r L4.2.5.1}
 summary (lm(mpg~horsepower +I(horsepower ^2) ,data=Auto))$coef
